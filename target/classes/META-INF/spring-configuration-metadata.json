@@ -1,0 +1,30 @@
+{
+  "groups": [{
+    "name": "spring.shiro",
+    "type": "com.djb.core.config.ShiroAutoconfig",
+    "sourceType": "com.djb.core.config.ShiroAutoconfig"
+  }],
+  "properties": [
+    {
+      "name": "spring.shiro.filter",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.djb.core.config.ShiroAutoconfig"
+    },
+    {
+      "name": "spring.shiro.login-url",
+      "type": "java.lang.String",
+      "sourceType": "com.djb.core.config.ShiroAutoconfig"
+    },
+    {
+      "name": "spring.shiro.success-url",
+      "type": "java.lang.String",
+      "sourceType": "com.djb.core.config.ShiroAutoconfig"
+    },
+    {
+      "name": "spring.shiro.unauthorized-url",
+      "type": "java.lang.String",
+      "sourceType": "com.djb.core.config.ShiroAutoconfig"
+    }
+  ],
+  "hints": []
+}
